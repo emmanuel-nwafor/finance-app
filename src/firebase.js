@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "finance-banking-app",
   storageBucket: "finance-banking-app.firebasestorage.app",
   messagingSenderId: "631788965438",
-  appId: "1:631788965438:web:8cd52a927a3ca55e3ecb6f"
+  appId: "1:631788965438:web:8cd52a927a3ca55e3ecb6f",
 };
 
 // Initialize Firebase
