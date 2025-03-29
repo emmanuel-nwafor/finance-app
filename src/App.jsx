@@ -1,16 +1,18 @@
 import React from 'react'
+import SideBar from './components/SideBar'
+import Overview from './components/Overview'
+import Pots from './components/Pots'
 
+// ALL PLACES I CREATED A CIRCLE ARE FOR MY WEB ICONS 
 function App() {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
-        <div className="bg-white  rounded-lg p-4">
-          <h2 className="text-xl font-bold mb-2">Account Balance</h2>
-          <p className="text-gray-700">Your current balance is:</p>
-          <p className="text-2xl font-bold text-green-500">$5,000.00</p>  
-        </div>       
-      </div>
+        <SideBar/>
+        <div className="p-5 sm:ml-60 sm:mb-20 md:ml-60 lg:ml-60 xl:ml-60 ">
+          <Overview/>
+          <Pots/>
+        </div>
     </>
   )
 }
